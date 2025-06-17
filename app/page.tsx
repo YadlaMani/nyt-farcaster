@@ -1,7 +1,7 @@
 import App from "@/app/page";
-import { APP_URL } from "../lib/constants";
-import type { Metadata } from "next";
 
+import type { Metadata } from "next";
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 const frame = {
   version: "next",
   imageUrl:
