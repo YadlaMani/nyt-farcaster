@@ -1,35 +1,27 @@
 import { NextResponse } from "next/server";
-import { APP_URL } from "../../../lib/constants";
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
 export async function GET() {
   const farcasterConfig = {
     // TODO: Add account association
-    "accountAssociation": {
-      "header": "",
-      "payload": "",
-      "signature": ""
+    accountAssociation: {
+      header: "",
+      payload: "",
+      signature: "",
     },
     frame: {
       version: "1",
-      name: "not your type",
+      name: "notyourtype",
       iconUrl: `${APP_URL}/images/icon.png`,
       homeUrl: `${APP_URL}`,
       imageUrl: `${APP_URL}/images/feed.png`,
       screenshotUrls: [],
-      tags: ["not your type", "farcaster", "miniapp"],
+      tags: ["coordi", "farcaster", "miniapp"],
       primaryCategory: "social",
-      buttonTitle: "not your type",
+      buttonTitle: "Launch Template",
       splashImageUrl: `${APP_URL}/images/splash.png`,
-      splashBackgroundColor: "#14051a",
-      subtitle: "not your type",
-      description: "not your type",
+      splashBackgroundColor: "#ffffff",
       webhookUrl: `${APP_URL}/api/webhook`,
-      // primaryCategory: "social",
-      tagline:"not your type",
-      ogTitle:"not your type",
-      ogDescription: "not your type",
-      ogImageUrl: `${APP_URL}/images/feed.png`,
-      heroImageUrl: `${APP_URL}/images/feed.png`,
     },
   };
 
