@@ -1,0 +1,21 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "notyourtype",
+    "iconUrl": "https://nyt-farcaster-n2t6.vercel.app/images/icon.png",
+    "homeUrl": "https://nyt-farcaster-n2t6.vercel.app",
+    "imageUrl": "https://nyt-farcaster-n2t6.vercel.app/images/feed.png",
+    "screenshotUrls": [],
+    "tags": ["coordi", "farcaster", "miniapp"],
+    "primaryCategory": "",
+    "buttonTitle": "Launch Template",
+    "splashImageUrl": "https://nyt-farcaster-n2t6.vercel.app/images/splash.png",
+    "splashBackgroundColor": "#ffffff",
+    "webhookUrl": "https://nyt-farcaster-n2t6.vercel.app/api/webhook"
+  }
+}
