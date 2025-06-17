@@ -1,10 +1,41 @@
 import { NextResponse } from "next/server";
 import { APP_URL } from "../../../lib/constants";
 
-export async function GET() {
-  const farcasterConfig = {
-    // TODO: Add account association
+interface AccountAssociation {
+  header: string;
+  payload: string;
+  signature: string;
+}
 
+interface Frame {
+  version: string;
+  name: string;
+  iconUrl: string;
+  homeUrl: string;
+  imageUrl: string;
+  buttonTitle: string;
+  splashImageUrl: string;
+  splashBackgroundColor: string;
+  webhookUrl: string;
+  screenshotUrls?: string[];
+  tags?: string[];
+  primaryCategory?: string;
+}
+
+interface FarcasterConfig {
+  accountAssociation?: AccountAssociation;
+  frame: Frame;
+}
+
+export async function GET() {
+  const farcasterConfig: FarcasterConfig = {
+    accountAssociation: {
+      header:
+        "eyJmaWQiOjExMDU1ODEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg5OWEyNzEyOTJCMDhBRDQ5OTU2YUMzM0MzNmI3NjgyYzIxMDI5NTE3In0",
+      payload: "eyJkb21haW4iOiJub3R5b3VydHlwZS54eXoifQ",
+      signature:
+        "MHhjZGFiMTU4ZjZhNzFhODNlYzBkY2EwZDM3ZDg2MjI4NDYxY2NmZTU5NDdiZTc5M2I1MTRkYmQzM2VmNzZjN2VhM2M4Zjc3NzkxMGUwNTUwZjlmZTY1NDIxYTE4NmVjZDRjNzkxN2ZjNzU2YzFiNGI1MzYzZTkzOTVjMzZkYTA5MjFj",
+    },
     frame: {
       version: "1",
       name: "notyourtype",
