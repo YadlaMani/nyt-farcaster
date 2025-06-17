@@ -1,0 +1,61 @@
+{
+  "name": "not-your-type",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@farcaster/auth-client": "^0.6.0",
+    "@farcaster/frame-node": "^0.0.36",
+    "@farcaster/frame-sdk": "^0.0.55",
+    "@farcaster/frame-wagmi-connector": "^0.0.44",
+    "@radix-ui/react-avatar": "^1.1.9",
+    "@radix-ui/react-dropdown-menu": "^2.1.14",
+    "@radix-ui/react-progress": "^1.1.6",
+    "@radix-ui/react-slot": "^1.2.2",
+    "@radix-ui/react-tabs": "^1.1.11",
+    "@tanstack/react-query": "^5.64.2",
+    "@thirdweb-dev/react": "^4.9.4",
+    "@thirdweb-dev/sdk": "^4.0.99",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "ethers": "^5.8.0",
+    "install": "^0.13.0",
+    "lucide-react": "^0.510.0",
+    "mongoose": "^8.14.3",
+    "next": "15.3.2",
+    "next-themes": "^0.4.6",
+    "pino-pretty": "^13.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sonner": "^2.0.3",
+    "tailwind-merge": "^3.3.0",
+    "thirdweb": "^5.99.1",
+    "wagmi": "^2.15.6"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "tailwindcss": "^4.1.10",
+    "tw-animate-css": "^1.2.9",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@10.12.1+sha512.f0dda8580f0ee9481c5c79a1d927b9164f2c478e90992ad268bbb2465a736984391d6333d2c327913578b2804af33474ca554ba29c04a8b13060a717675ae3ac",
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "@biomejs/biome"
+    ],
+    "onlyBuiltDependencies": [
+      "@biomejs/biome"
+    ]
+  }
+}
