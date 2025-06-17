@@ -46,7 +46,7 @@ export async function GET() {
       imageUrl: `${APP_URL}/images/feed.png`,
       screenshotUrls: [],
       tags: ["coordi", "farcaster", "miniapp"],
-      primaryCategory: "",
+      primaryCategory: "social",
       buttonTitle: "Launch Template",
       splashImageUrl: `${APP_URL}/images/splash.png`,
       splashBackgroundColor: "#ffffff",
