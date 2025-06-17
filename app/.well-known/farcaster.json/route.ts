@@ -30,11 +30,9 @@ interface FarcasterConfig {
 export async function GET() {
   const farcasterConfig: FarcasterConfig = {
     accountAssociation: {
-      header:
-        "eyJmaWQiOjExMDU1ODEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg5OWEyNzEyOTJCMDhBRDQ5OTU2YUMzM0MzNmI3NjgyYzIxMDI5NTE3In0",
-      payload: "eyJkb21haW4iOiJub3R5b3VydHlwZS54eXoifQ",
-      signature:
-        "MHhjZGFiMTU4ZjZhNzFhODNlYzBkY2EwZDM3ZDg2MjI4NDYxY2NmZTU5NDdiZTc5M2I1MTRkYmQzM2VmNzZjN2VhM2M4Zjc3NzkxMGUwNTUwZjlmZTY1NDIxYTE4NmVjZDRjNzkxN2ZjNzU2YzFiNGI1MzYzZTkzOTVjMzZkYTA5MjFj",
+      header: "",
+      payload: "",
+      signature: "",
     },
     frame: {
       version: "1",
