@@ -33,9 +33,9 @@ export async function GET() {
     accountAssociation: {
       header:
         "eyJmaWQiOjExMDU1ODEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg5OWEyNzEyOTJCMDhBRDQ5OTU2YUMzM0MzNmI3NjgyYzIxMDI5NTE3In0",
-      payload: "eyJkb21haW4iOiJub3R5b3VydHlwZS54eXoifQ",
+      payload: "eyJkb21haW4iOiJueXQtZmFyY2FzdGVyLW4ydDYudmVyY2VsLmFwcCJ9",
       signature:
-        "MHhjZGFiMTU4ZjZhNzFhODNlYzBkY2EwZDM3ZDg2MjI4NDYxY2NmZTU5NDdiZTc5M2I1MTRkYmQzM2VmNzZjN2VhM2M4Zjc3NzkxMGUwNTUwZjlmZTY1NDIxYTE4NmVjZDRjNzkxN2ZjNzU2YzFiNGI1MzYzZTkzOTVjMzZkYTA5MjFj",
+        "MHgzYTNmYWUyOGFmNTUwNTcwZDVhZDI1ZmVhNGY2NTdlOWVjODVhMDU0YzZiMzI5YTQxNTkzZjhhMGJiM2JhMTY4N2JlMzJlOTYxN2Q4ZDgwM2VhYWY4NWNjMDgwNzc5MjM0OWRlNjg5YTVkMDg4M2EwMjY2ODcwNWE5MTQ3NTI3ODFj",
     },
 
     frame: {
