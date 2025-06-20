@@ -10,9 +10,10 @@
 !.yarn/releases
 !.yarn/versions
 cache/
-out/
-
+out
+.env*
 yarn.lock
+app/.well-known/farcaster.json
 
 # testing
 /coverage
